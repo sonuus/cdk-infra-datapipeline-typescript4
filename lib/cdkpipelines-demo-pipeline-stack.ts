@@ -11,7 +11,7 @@ export class CdkpipelinesDemoPipelineStack extends Stack {
       // How it will be built and synthesized
       synth: new ShellStep('Synth', {
         // Where the source can be found
-        input: CodePipelineSource.gitHub('sonuus/cdk-pipelines-infra-typescript2', 'master'),
+        input: CodePipelineSource.gitHub('sonuus/cdk-pipelines-infra-typescript4', 'master'),
 
         // Install dependencies, build and run cdk synth
         commands: [
